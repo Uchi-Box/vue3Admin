@@ -20,8 +20,6 @@ export default ({mode}) => defineConfig({
     },
     extensions:['.vue','.js','jsx','.json']
   },
-  base: mode == 'development' ? './' 
-  :(mode == 'beta' ? '//s.baidu.com/beta/xxx' : '//s.baidu.com/release/xxx'),
   server:{
     proxy:{
       '/api':{      

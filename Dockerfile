@@ -7,7 +7,7 @@ WORKDIR /opt/vue3admin
 #拷贝npm包信息至容器
 COPY ./package.json /opt/vue3admin
 #指定代理地址并安装依赖
-RUN npm install --production=false --registry=https://registry.npm.taobao.org
+RUN npm install --production=true --registry=https://registry.npm.taobao.org
 # 拷贝其他所有文件到容器（除了 .dockerignore 中的目录和文件）
 COPY . /opt/vue3admin
 #构建app

@@ -2,9 +2,9 @@
   <div class="login-body">
     <div class="login-container">
       <div class="head">
-        <img src="https://s.weituibao.com/1582958061265/mlogo.png" alt="" class="logo">
+        <img src="../assets/vlogo.png" alt="logo" class="logo">
         <div class="name">
-          <div class="title">vue3商场</div>
+          <div class="title">Vue3Admin</div>
           <div class="tips">Vue3 后台管理系统</div>
         </div>
       </div>
@@ -37,8 +37,8 @@ export default {
     const loginForm = ref(null)
     const state = reactive({
       ruleForm:{
-        username:'',
-        password:''
+        username:'admin',
+        password:'123456'
       },
       checked:true,
       rules:{
@@ -109,7 +109,7 @@ export default {
 }
 .head .title{
   font-size: 28px;
-  color:#1BAEAE;
+  color:#409eff;
   font-weight: bold;
 }
 .head .tips{

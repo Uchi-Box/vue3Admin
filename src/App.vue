@@ -4,8 +4,8 @@
       <el-aside class="aside">
         <div class="head">
           <div>
-            <img src="//s.weituibao.com/1582958061265/mlogo.png" alt="logo" />
-            <span>vue3管理平台</span>
+            <img src="./assets/vlogo.png" alt="logo" />
+            <span>Vue3管理平台</span>
           </div>
         </div>
         <div class="line">
@@ -18,7 +18,7 @@
            >
             <el-sub-menu index="1">
               <template #title>
-                <span>Dashboard</span>
+                <span>仪表盘</span>
               </template>
               <el-menu-item-group>
                 <el-menu-item index="/">
